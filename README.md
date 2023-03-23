@@ -20,3 +20,114 @@ Overall, if you're willing to invest the time to learn Vim, it can be a powerful
 
 
 [![Ben Awad 1h tutorial](https://ytcards.demolab.com/?id=IiwGbcd8S7I&ab_channel=BenAwad&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250&duration=3874 "Learn Vim ")](https://youtu.be/IiwGbcd8S7I)
+
+
+
+**Day 1: Learn how to enter and exit Vim, navigate around a file, and save changes.**
+
+
+
+* i: enter insert mode
+* Esc: exit insert mode
+* h, j, k, l: move left, down, up, right respectively
+* :w: save changes
+* :q: quit Vim
+
+**Day 2-5: Practice basic editing commands.**
+
+* x: delete character under the cursor
+
+* dw: delete word
+
+* yy: copy current line
+
+* p: paste copied line
+
+* u: undo last change
+
+* Ctrl-r: redo last change
+
+
+
+**Day 6-10: Learn more navigation commands.**
+
+
+
+* w: move forward one word
+
+* b: move back one word
+
+* 0: move to the beginning of the line
+
+* $: move to the end of the line
+
+* gg: move to the beginning of the file
+
+* G: move to the end of the file
+
+
+
+
+**Day 11-15: Learn how to search and replace.**
+
+
+
+* /: search forward for a string
+
+* ? : search backward for a string
+
+* n: move to the next search result
+
+* N: move to the previous search result
+
+* :s/old/new/g: replace all instances of "old" with "new" in the current line
+
+* :%s/old/new/g: replace all instances of "old" with "new" in the entire file
+
+
+
+**Day 16-20: Learn how to use visual mode.**
+
+
+
+* v: enter visual mode
+
+* V: enter line visual mode
+
+* Ctrl-v: enter block visual mode
+
+* d: delete selected text
+
+* y: copy selected text
+
+* : indent selected text
+ 
+* &lt;: unindent selected text
+
+
+
+**Day 21-25: Learn how to use macros and marks.**
+
+
+
+* q: start recording a macro
+
+* @: play back a macro
+
+* m: set a mark
+
+* ': move to a mark
+
+* `: move to the exact location of a mark
+
+**Day 26-30: Learn how to use advanced features.**
+ 
+* Ctrl-w: split the window
+
+* :new: open a new window
+
+* :vnew: open a new vertical window
+
+* Ctrl-n: enable autocomplete
+
+* :!command: run a shell command from within Vim
