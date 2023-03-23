@@ -1,7 +1,7 @@
 
 
 
-**Here are a few reasons why you might want to learn Vim:**
+# **Here are a few reasons why you might want to learn Vim:**
 
 
 
@@ -20,114 +20,93 @@ Overall, if you're willing to invest the time to learn Vim, it can be a powerful
 
 
 [![Ben Awad 1h tutorial](https://ytcards.demolab.com/?id=IiwGbcd8S7I&ab_channel=BenAwad&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250&duration=3874 "Learn Vim ")](https://youtu.be/IiwGbcd8S7I)
+[![](https://ytcards.demolab.com/?id=D4YTJ2W5q4Y&ab_channel=ThePrimeagen&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/D4YTJ2W5q4Y) [![](https://ytcards.demolab.com/?id=RZ4p-saaQkc&ab_channel=freeCodeCamp.org&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/RZ4p-saaQkc)[![](https://ytcards.demolab.com/?id=R2pBWDnfJY8&ab_channel=BenAwad&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/R2pBWDnfJY8)
+
+
+# **30-Day Vim Learning Plan**
+
+This is a 30-day learning plan for mastering Vim, a powerful text editor.
+
+
+## **Day 1: Basic Navigation**
 
 
 
-**Day 1: Learn how to enter and exit Vim, navigate around a file, and save changes.**
+* Enter insert mode: `i`
+* Exit insert mode: `Esc`
+* Move left, down, up, right: `h`, `j`, `k`, `l` respectively
+* Save changes: `:w`
+* Quit Vim: `:q`
+
+
+## **Day 2-5: Basic Editing**
 
 
 
-* i: enter insert mode
-* Esc: exit insert mode
-* h, j, k, l: move left, down, up, right respectively
-* :w: save changes
-* :q: quit Vim
+* Delete character under the cursor: `x`
+* Delete word: `dw`
+* Copy current line: `yy`
+* Paste copied line: `p`
+* Undo last change: `u`
+* Redo last change: `Ctrl-r`
 
-**Day 2-5: Practice basic editing commands.**
 
-* x: delete character under the cursor
-
-* dw: delete word
-
-* yy: copy current line
-
-* p: paste copied line
-
-* u: undo last change
-
-* Ctrl-r: redo last change
+## **Day 6-10: Advanced Navigation**
 
 
 
-**Day 6-10: Learn more navigation commands.**
+* Move forward one word: `w`
+* Move back one word: `b`
+* Move to beginning of the line: `0`
+* Move to end of the line: `$`
+* Move to beginning of the file: `gg`
+* Move to end of the file: `G`
+
+
+## **Day 11-15: Search and Replace**
 
 
 
-* w: move forward one word
+* Search forward for a string: `/`
+* Search backward for a string: `?`
+* Move to the next search result: `n`
+* Move to the previous search result: `N`
+* Replace all instances of "old" with "new" in the current line: `:s/old/new/g`
+* Replace all instances of "old" with "new" in the entire file: `:%s/old/new/g`
 
-* b: move back one word
 
-* 0: move to the beginning of the line
-
-* $: move to the end of the line
-
-* gg: move to the beginning of the file
-
-* G: move to the end of the file
+## **Day 16-20: Visual Mode**
 
 
 
+* Enter visual mode: `v`
+* Enter line visual mode: `V`
+* Enter block visual mode: `Ctrl-v`
+* Delete selected text: `d`
+* Copy selected text: `y`
+* Indent selected text: `>`
+* Unindent selected text: `&lt;`
 
-**Day 11-15: Learn how to search and replace.**
 
-
-
-* /: search forward for a string
-
-* ? : search backward for a string
-
-* n: move to the next search result
-
-* N: move to the previous search result
-
-* :s/old/new/g: replace all instances of "old" with "new" in the current line
-
-* :%s/old/new/g: replace all instances of "old" with "new" in the entire file
+## **Day 21-25: Macros and Marks**
 
 
 
-**Day 16-20: Learn how to use visual mode.**
+* Start recording a macro: `q`
+* Play back a macro: `@`
+* Set a mark: `m`
+* Move to a mark: `'`
+* Move to the exact location of a mark: ```
+
+
+## **Day 26-30: Advanced Features**
 
 
 
-* v: enter visual mode
+* Split the window: `Ctrl-w`
+* Open a new window: `:new`
+* Open a new vertical window: `:vnew`
+* Enable autocomplete: `Ctrl-n`
+* Run a shell command from within Vim: `:!command`
 
-* V: enter line visual mode
-
-* Ctrl-v: enter block visual mode
-
-* d: delete selected text
-
-* y: copy selected text
-
-* : indent selected text
- 
-* &lt;: unindent selected text
-
-
-
-**Day 21-25: Learn how to use macros and marks.**
-
-
-
-* q: start recording a macro
-
-* @: play back a macro
-
-* m: set a mark
-
-* ': move to a mark
-
-* `: move to the exact location of a mark
-
-**Day 26-30: Learn how to use advanced features.**
- 
-* Ctrl-w: split the window
-
-* :new: open a new window
-
-* :vnew: open a new vertical window
-
-* Ctrl-n: enable autocomplete
-
-* :!command: run a shell command from within Vim
+Remember to practice each command multiple times to get comfortable with it before moving on to the next one. Good luck on your Vim learning journey!
