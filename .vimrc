@@ -11,7 +11,7 @@ set cursorline
 set mouse=a
 
 " Use the system clipboard for copy and paste operations
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " Set font preferences for GUI environments
 if has("gui_running")
