@@ -4,7 +4,6 @@
 # **Here are a few reasons why you might want to learn Vim:**
 
 
-
 * **Increased productivity:** Vim is designed to be efficient, and its various commands and keyboard shortcuts can help you work much faster than you would with a mouse or touchpad.
 
 * **Portability:** Vim is available on nearly every operating system, so once you learn it, you can use it on any computer you work on.
