@@ -17,6 +17,11 @@
 
 Overall, if you're willing to invest the time to learn Vim, it can be a powerful tool that can help you work more efficiently and effectively.
 
+|  updates |  Images | 
+|---------|--------|
+I have updated my .vimrc with **the tabs and space visualization** very helpful for [Norminette](https://github.com/42Paris/norminette-v2), the school’s norm. | ![image](https://github.com/alessiotucci/Learn-Vim-/assets/116757689/a126499a-074c-421a-91ff-ed7687941143)
+
+
 # **YOUTUBE VIDEO**
 
 [![Ben Awad 1h tutorial](https://ytcards.demolab.com/?id=IiwGbcd8S7I&ab_channel=BenAwad&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250&duration=3874 "Learn Vim ")](https://youtu.be/IiwGbcd8S7I)
