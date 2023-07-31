@@ -10,6 +10,23 @@ set cursorline
 " Enable mouse support
 set mouse=a
 
+" Set tabsto and shiftwidth to 1 to make tab one char wide
+set tabstop=1
+set shiftwidth=1
+" Show tabs as -  and spaces as · 
+set listchars=tab:→°,space:·
+set list
+
+"       this is a comment with spaces
+"	this				is      a       comment with    tabs            double tabl
+
+ " Show cursorline
+ set cursorline
+hi CursorLine   cterm=NONE ctermbg=Darkgreen
+
+" set the fucking backspace
+set backspace=indent,eol,start
+
 " Use the system clipboard for copy and paste operations
 set clipboard=unnamedplus
 
