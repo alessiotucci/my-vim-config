@@ -20,7 +20,7 @@ set listchars=tab:→°,space:·
 set list
 
 " Customize colors for the special characters
-highlight SpecialKey ctermfg=LightGray guifg=LightGray
+highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
 
 "       this is a comment with spaces
 "	this				is      a       comment with    tabs            double tabl
