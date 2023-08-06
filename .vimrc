@@ -14,6 +14,10 @@ set mouse=a
 set tabstop=1
 set shiftwidth=1
 
+" Enable auto-indentation
+set autoindent
+set smartindent
+set cindent
 
 " Show tabs as -  and spaces as · 
 set listchars=tab:→°,space:·
