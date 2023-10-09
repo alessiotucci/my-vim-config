@@ -55,7 +55,7 @@ highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
 
  " Show cursorline
 set cursorline
-hi CurorLine   cterm=Red ctermbg=DarkGray
+hi CurorLine   cterm=Red ctermbg=DarkRed
 " set the fucking backspace
 set backspace=indent,eol,start
 
