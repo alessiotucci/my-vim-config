@@ -2,14 +2,30 @@
 set nocompatible
 " after watching the video
 filetype plugin on
+
+" finding files in subdir etc
+set path+=**
+" display alla mathchifiles when we tab complete
+set wildmenu
+
+" -------------------------------------------------------
+hi TabLineFill ctermfg=LightGreen ctermbg=DarkGreen
+hi TabLine ctermfg=Blue ctermbg=Yellow
+hi TabLineSel ctermfg=Red ctermbg=Yellow
+
+"--------------------------------------------------
 " Show line numbers
 set number
 
 " Enable syntax highlighting
 syntax on
 
-" Show cursorline
-set cursorline
+"----------------------------------------
+" this might not work on windows
+" create the 'tags' file (may need to install ctags first)
+command! MakeTags !gtags -R .
+
+
 
 " Show status bar
 set laststatus=2
@@ -38,9 +54,8 @@ highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
 "	this				is      a       comment with    tabs            double tabl
 
  " Show cursorline
- set cursorline
-hi CursorLine   cterm=NONE ctermbg=Darkgreen
-
+set cursorline
+hi CurorLine   cterm=Red ctermbg=DarkGray
 " set the fucking backspace
 set backspace=indent,eol,start
 
