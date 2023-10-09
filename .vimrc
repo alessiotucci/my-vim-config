@@ -1,3 +1,6 @@
+" enter the current millenium
+set nocompatible
+
 " Show line numbers
 set number
 
