@@ -115,4 +115,3 @@ This is a 30-day learning plan for mastering Vim, a powerful text editor.
 * Enable autocomplete: `Ctrl-n`
 * Run a shell command from within Vim: `:!command`
 
-Remember to practice each command multiple times to get comfortable with it before moving on to the next one. Good luck on your Vim learning journey!
