@@ -7,6 +7,10 @@ syntax on
 " Show cursorline
 set cursorline
 
+" Show status bar
+set laststatus=2
+set ruler
+
 " Enable mouse support
 set mouse=a
 
