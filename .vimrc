@@ -14,12 +14,21 @@ set ruler
 " Enable mouse support
 set mouse=a
 
-" Set tabsto and shiftwidth to 1 to make tab one char wide
+" Set	tabsto and shiftwidth to 1 to make tab one char wide
 set tabstop=1
 set shiftwidth=1
+
+" Enable auto-indentation
+set autoindent
+set smartindent
+set cindent
+
 " Show tabs as -  and spaces as · 
 set listchars=tab:→°,space:·
 set list
+
+" Customize colors for the special characters
+highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
 
 "       this is a comment with spaces
 "	this				is      a       comment with    tabs            double tabl
@@ -32,7 +41,8 @@ hi CursorLine   cterm=NONE ctermbg=Darkgreen
 set backspace=indent,eol,start
 
 " Use the system clipboard for copy and paste operations
-set clipboard=unnamedplus
+"set clipboard=unnamedplus
+set clipboard^=unnamed,unnamedplus
 
 " Set font preferences for GUI environments
 if has("gui_running")

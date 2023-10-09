@@ -19,7 +19,8 @@ Overall, if you're willing to invest the time to learn Vim, it can be a powerful
 
 |  updates |  Images | 
 |---------|--------|
-I have updated my .vimrc with **the tabs and space visualization** very helpful for [Norminette](https://github.com/42Paris/norminette-v2), the school’s norm. | ![image](https://github.com/alessiotucci/Learn-Vim-/assets/116757689/a126499a-074c-421a-91ff-ed7687941143)
+I have updated my .vimrc with **the tabs and space visualization** very helpful for [Norminette](https://github.com/42Paris/norminette-v2),the school’s norm.(windows screenshot)| ![image](https://github.com/alessiotucci/Learn-Vim-/assets/116757689/a126499a-074c-421a-91ff-ed7687941143) |
+|I have setted the color of the special char  to be light gray so it not invasive (ubuntu screenshot)| ![Screenshot from 2023-08-08 11-40-26](https://github.com/alessiotucci/Learn-Vim-/assets/116757689/c8b62536-91d2-4558-9fef-4855795195a9)|
 
 
 # **YOUTUBE VIDEO**
