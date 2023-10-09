@@ -1,6 +1,7 @@
 " enter the current millenium
 set nocompatible
-
+" after watching the video
+filetype plugin on
 " Show line numbers
 set number
 
