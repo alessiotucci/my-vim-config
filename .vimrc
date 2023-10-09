@@ -3,6 +3,24 @@ set nocompatible
 " after watching the video
 filetype plugin on
 
+"--------------------------------------------------------
+
+" Open Netrw when Vim starts
+autocmd VimEnter * :Vexplore
+
+" Set Netrw to open in a vertical split
+let g:netrw_winsize = 18
+
+" Hide some unnecessary details in Netrw
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+
+
+
+"--------------------------------------------------------
+
+
 " finding files in subdir etc
 set path+=**
 " display alla mathchifiles when we tab complete
