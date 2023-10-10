@@ -73,7 +73,10 @@ highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
 
  " Show cursorline
 set cursorline
-hi CurorLine   cterm=Red ctermbg=DarkRed
+" Set the cursor line highlight
+highlight CursorLine ctermbg=88
+
+"hi CurorLine   cterm= ctermbg=Red
 " set the fucking backspace
 set backspace=indent,eol,start
 
@@ -97,4 +100,5 @@ if has("gui_running")
     set guifont=Consolas:h11:cANSI
   endif
 endif
+
 
