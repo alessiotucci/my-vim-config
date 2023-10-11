@@ -29,7 +29,7 @@ set wildmenu
 " -------------------------------------------------------
 hi TabLineFill ctermfg=LightGreen ctermbg=DarkGreen
 hi TabLine ctermfg=Blue ctermbg=Yellow
-hi TabLineSel ctermfg=Red ctermbg=Yellow
+hi TabLineSel ctermfg=Red ctermbg=8
 
 "--------------------------------------------------
 " Show line numbers
