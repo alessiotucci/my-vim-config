@@ -53,7 +53,7 @@ set ruler
 set mouse=a
 
 " Set	tabsto and shiftwidth to 1 to make tab one char wide
-set tabstop=1
+set tabstop=2
 set shiftwidth=1
 
 " Enable auto-indentation
@@ -62,7 +62,7 @@ set smartindent
 set cindent
 
 " Show tabs as -  and spaces as · 
-set listchars=tab:→°,space:·
+set listchars=tab:➡\ ,space:·
 set list
 
 " Customize colors for the special characters
