@@ -53,7 +53,7 @@ set ruler
 set mouse=a
 
 " Set	tabsto and shiftwidth to 1 to make tab one char wide
-set tabstop=2
+set tabstop=4
 set shiftwidth=1
 
 " Enable auto-indentation
