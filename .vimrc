@@ -61,7 +61,8 @@ au CmdlineEnter : hi StatusLine ctermfg=Black ctermbg=DarkGreen cterm=NONE
 
 
 " Reset the color
-au InsertLeave *,CmdlineLeave :,VisualLeave * hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
+au InsertLeave *,CmdlineLeave : hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
+
 
 "----------------------------------------------------------
 
