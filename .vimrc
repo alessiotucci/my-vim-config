@@ -20,13 +20,14 @@ let g:netrw_browse_split = 4
 
 "--------------------------------------------------------
 
-
 " finding files in subdir etc
 set path+=**
 " display alla mathchifiles when we tab complete
 set wildmenu
 
 " -------------------------------------------------------
+" this is for customize the color of tabs in vim
+
 hi TabLineFill ctermfg=LightGreen ctermbg=DarkGreen
 hi TabLine ctermfg=Blue ctermbg=Yellow
 hi TabLineSel ctermfg=Red ctermbg=8
@@ -42,6 +43,27 @@ syntax on
 " this might not work on windows
 " create the 'tags' file (may need to install ctags first)
 command! MakeTags !gtags -R .
+
+"----------------------------------------------------------
+"display useful information in the status lines
+" Set the status line
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ [BUFFER=%n]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
+
+"----------------------------------------------------------
+" Normal mode
+hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
+
+" Insert mode
+au InsertEnter * hi StatusLine ctermfg=Black ctermbg=DarkCyan cterm=NONE
+
+" Command mode
+au CmdlineEnter : hi StatusLine ctermfg=Black ctermbg=DarkGreen cterm=NONE
+
+
+" Reset the color
+au InsertLeave *,CmdlineLeave :,VisualLeave * hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
+
+"----------------------------------------------------------
 
 
 
@@ -68,8 +90,8 @@ set list
 " Customize colors for the special characters
 highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
 
-"       this is a comment with spaces
-"	this				is      a       comment with    tabs            double tabl
+"    this is a comment with spaces
+"	this	is    a		comment with    tabs            double tabl
 
  " Show cursorline
 set cursorline
