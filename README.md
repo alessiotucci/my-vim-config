@@ -24,6 +24,7 @@ I have updated my .vimrc with **the tabs and space visualization** very helpful 
 | Using the buildin file tree of vim, as soon I start up with it ! also changing the color green to red |![image](https://github.com/alessiotucci/my-vim-config/assets/116757689/05860ff3-9818-4bcf-bccb-d60876453fb8)|
 |Changed the color scheme for the tabs|<img width="487" alt="image" src="https://github.com/alessiotucci/my-vim-config/assets/116757689/23ab8067-4c74-4bcb-a2c4-ee3180754706">|
 |updated the arrows and point for tabs and spaces |<img width="334" alt="image" src="https://github.com/alessiotucci/my-vim-config/assets/116757689/eff2c669-bf15-4b3a-8cfb-a39f72764816">|
+|Useful color for status bar |<img width="484" alt="image" src="https://github.com/alessiotucci/my-vim-config/assets/116757689/6a19d823-25d2-4c08-9ce6-bcf75111ddc1">|
 
 
 # **YOUTUBE VIDEO**
