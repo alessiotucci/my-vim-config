@@ -1,0 +1,16 @@
+"----------------------------------------------------------
+" Normal mode
+hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
+hi Normal ctermbg=Black cterm=NONE
+
+" Insert mode
+au InsertEnter * hi StatusLine ctermfg=Black ctermbg=DarkCyan cterm=NONE
+au InsertEnter * hi Normal ctermbg=Grey cterm=NONE
+
+" Command mode
+au CmdlineEnter : hi StatusLine ctermfg=Black ctermbg=DarkGreen cterm=NONE
+au CmdlineEnter : hi Normal ctermbg=LightGrey cterm=NONE
+
+" Reset the color
+au InsertLeave *,CmdlineLeave : hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
+au InsertLeave *,CmdlineLeave : hi Normal ctermbg=Black cterm=NONE
