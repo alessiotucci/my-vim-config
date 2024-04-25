@@ -14,3 +14,14 @@ au CmdlineEnter : hi Normal ctermbg=LightGrey cterm=NONE
 " Reset the color
 au InsertLeave *,CmdlineLeave : hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
 au InsertLeave *,CmdlineLeave : hi Normal ctermbg=Black cterm=NONE
+
+"---------------------------------------------------------
+"source: https://jeffkreeftmeijer.com/vim-number
+"--------------------------------------------------------
+:set number
+
+:augroup numbertoggle
+:  autocmd!
+:  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
+:  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
+:augroup END
