@@ -2,7 +2,25 @@
 set nocompatible
 " after watching the video
 filetype plugin on
+" set the visual bell
+set vb
+colorscheme elflord
 
+" Header for 42 ecole: ----------------------------------
+let g:user42 = 'atucci'
+let g:mail42 = 'atucci@student.42.fr'
+"--------------------------------------------------------
+
+"---------------------------------------------------------
+"source: https://jeffkreeftmeijer.com/vim-number
+"--------------------------------------------------------
+:set number
+
+:augroup numbertoggle
+:  autocmd!
+:  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
+:  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
+:augroup END
 "--------------------------------------------------------
 
 " Open Netrw when Vim starts
@@ -52,20 +70,22 @@ command! MakeTags !gtags -R .
 " Set the status line
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ [BUFFER=%n]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 
-"----------------------------------------------------------
+"----------------------------------------------------------------"
+" I have updated this configuartion to change also the background"
+"----------------------------------------------------------------"
 " Normal mode
 hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
 
 " Insert mode
+au InsertEnter * colorscheme industry
 au InsertEnter * hi StatusLine ctermfg=Black ctermbg=DarkCyan cterm=NONE
 
 " Command mode
 au CmdlineEnter : hi StatusLine ctermfg=Black ctermbg=DarkGreen cterm=NONE
 
-
 " Reset the color
+au InsertLeave *,CmdlineLeave : colorscheme elflord
 au InsertLeave *,CmdlineLeave : hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
-
 
 "----------------------------------------------------------
 
