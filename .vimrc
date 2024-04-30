@@ -79,13 +79,15 @@ hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
 " Insert mode
 au InsertEnter * colorscheme industry
 au InsertEnter * hi StatusLine ctermfg=Black ctermbg=DarkCyan cterm=NONE
-
+au InsertEnter * highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
 " Command mode
 au CmdlineEnter : hi StatusLine ctermfg=Black ctermbg=DarkGreen cterm=NONE
+au CmdlineEnter * highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
 
 " Reset the color
 au InsertLeave *,CmdlineLeave : colorscheme elflord
 au InsertLeave *,CmdlineLeave : hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
+au InsertLeave * highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
 
 "----------------------------------------------------------
 
