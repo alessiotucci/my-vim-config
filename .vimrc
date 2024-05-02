@@ -1,10 +1,36 @@
+"--------------------------------------------------
 " enter the current millenium
 set nocompatible
 " after watching the video
 filetype plugin on
+"--------------------------------------------------
 " set the visual bell
 set vb
+
+"--------------------------------------------------
 colorscheme elflord
+
+
+"--------------------------------------------------
+" Show line numbers
+set number
+
+
+"--------------------------------------------------
+" Enable syntax highlighting
+syntax on
+
+
+"--------------------------------------------------
+" Show status bar
+set laststatus=2
+set ruler
+
+
+"--------------------------------------------------
+" Enable mouse support
+set mouse=a
+
 
 " Header for 42 ecole: ----------------------------------
 let g:user42 = 'atucci'
@@ -53,12 +79,7 @@ hi TabLineFill ctermfg=LightGreen ctermbg=DarkGreen
 hi TabLine ctermfg=Blue ctermbg=Yellow
 hi TabLineSel ctermfg=Red ctermbg=8
 
-"--------------------------------------------------
-" Show line numbers
-set number
 
-" Enable syntax highlighting
-syntax on
 
 "----------------------------------------
 " this might not work on windows
@@ -93,12 +114,7 @@ au InsertLeave * highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
 
 
 
-" Show status bar
-set laststatus=2
-set ruler
 
-" Enable mouse support
-set mouse=a
 
 " Set	tabsto and shiftwidth to 1 to make tab one char wide
 set tabstop=4
