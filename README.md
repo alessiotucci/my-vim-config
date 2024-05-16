@@ -31,7 +31,7 @@ I have updated my .vimrc with **the tabs and space visualization** very helpful 
 # **YOUTUBE VIDEO**
 
 [![Ben Awad 1h tutorial](https://ytcards.demolab.com/?id=IiwGbcd8S7I&ab_channel=BenAwad&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250&duration=3874 "Learn Vim ")](https://youtu.be/IiwGbcd8S7I)
-[![](https://ytcards.demolab.com/?id=D4YTJ2W5q4Y&ab_channel=ThePrimeagen&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/D4YTJ2W5q4Y) [![](https://ytcards.demolab.com/?id=RZ4p-saaQkc&ab_channel=freeCodeCamp.org&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/RZ4p-saaQkc)[![](https://ytcards.demolab.com/?id=R2pBWDnfJY8&ab_channel=BenAwad&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/R2pBWDnfJY8)
+[![](https://ytcards.demolab.com/?id=D4YTJ2W5q4Y&ab_channel=ThePrimeagen&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/D4YTJ2W5q4Y) [![](https://ytcards.demolab.com/?id=RZ4p-saaQkc&ab_channel=freeCodeCamp.org&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/RZ4p-saaQkc)[![](https://ytcards.demolab.com/?id=R2pBWDnfJY8&ab_channel=BenAwad&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/R2pBWDnfJY8) [![Beginner Friendly](https://ytcards.demolab.com/?id=lWTzqPfy1gE)](https://youtu.be/lWTzqPfy1gE?feature=shared)
 
 
 # **30-Day Vim Learning Plan**
