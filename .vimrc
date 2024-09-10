@@ -6,42 +6,29 @@ filetype plugin on
 "--------------------------------------------------
 " set the visual bell
 set vb
-
 "--------------------------------------------------
 colorscheme elflord
-
-
 "--------------------------------------------------
 " Show line numbers
 set number
-
-
 "--------------------------------------------------
 " Enable syntax highlighting
 syntax on
-
-
 "--------------------------------------------------
 " Show status bar
 set laststatus=2
 set ruler
-
-
 "--------------------------------------------------
 " Enable mouse support
 set mouse=a
-
-
 " Header for 42 ecole: ----------------------------------
 let g:user42 = 'atucci'
 let g:mail42 = 'atucci@student.42.fr'
 "--------------------------------------------------------
-
 "---------------------------------------------------------
 "source: https://jeffkreeftmeijer.com/vim-number
 "--------------------------------------------------------
 :set number
-
 :augroup numbertoggle
 :  autocmd!
 :  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
@@ -49,37 +36,28 @@ let g:mail42 = 'atucci@student.42.fr'
 :augroup END
 "--------------------------------------------------------
 
+"----------------------*** Netrw ***--------------------- 
 " Open Netrw when Vim starts
 autocmd VimEnter * :Vexplore
-
 " Set Netrw to open in a vertical split
 let g:netrw_winsize = 18
-
 " Hide some unnecessary details in Netrw
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
-
 "-------------------------------------------------------
 set textwidth=80
 set colorcolumn=80
-
-
 "--------------------------------------------------------
-
 " finding files in subdir etc
 set path+=**
 " display alla mathchifiles when we tab complete
 set wildmenu
-
 " -------------------------------------------------------
 " this is for customize the color of tabs in vim
-
 hi TabLineFill ctermfg=LightGreen ctermbg=DarkGreen
 hi TabLine ctermfg=Blue ctermbg=Yellow
 hi TabLineSel ctermfg=Red ctermbg=8
-
-
 
 "----------------------------------------
 " this might not work on windows
@@ -111,20 +89,13 @@ au InsertLeave *,CmdlineLeave : hi StatusLine ctermfg=White ctermbg=DarkBlue cte
 au InsertLeave * highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
 
 "----------------------------------------------------------
-
-
-
-
-
 " Set	tabsto and shiftwidth to 1 to make tab one char wide
 set tabstop=4
 set shiftwidth=1
-
 " Enable auto-indentation
 set autoindent
 set smartindent
 set cindent
-
 " Show tabs as -  and spaces as · 
 " Here is to type them out
 " set listchars=tab:\u27A1\ ,space:\u00B7
