@@ -126,6 +126,8 @@ set smartindent
 set cindent
 
 " Show tabs as -  and spaces as · 
+" Here is to type them out
+" set listchars=tab:\u27A1\ ,space:\u00B7
 set listchars=tab:➡\ ,space:·
 set list
 
