@@ -62,7 +62,14 @@ hi TabLineSel ctermfg=Red ctermbg=8
 "----------------------------------------
 " this might not work on windows
 " create the 'tags' file (may need to install ctags first)
-command! MakeTags !gtags -R .
+" command! MakeTags !gtags -R .
+
+" Automatically create and update tags file on file save or open
+augroup AutoTags
+  autocmd!
+  autocmd BufWritePost,BufReadPost * silent! !ctags -R .
+augroup END
+
 
 "----------------------------------------------------------
 "display useful information in the status lines
