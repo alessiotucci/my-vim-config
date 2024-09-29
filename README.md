@@ -26,7 +26,7 @@ I have updated my .vimrc with **the tabs and space visualization** very helpful 
 |updated the arrows and point for tabs and spaces |<img width="334" alt="image" src="https://github.com/alessiotucci/my-vim-config/assets/116757689/eff2c669-bf15-4b3a-8cfb-a39f72764816">|
 |Useful color for status bar |<img width="484" alt="image" src="https://github.com/alessiotucci/my-vim-config/assets/116757689/6a19d823-25d2-4c08-9ce6-bcf75111ddc1">|
 |Useful ruler to see if a line is too long, still following 42 norminette |  ![Screenshot from 2024-03-25 12-19-00](https://github.com/alessiotucci/my-vim-config/assets/116757689/89de8d39-218e-4e3b-b944-bfa601395e10)         |
-
+|The Tags are finally working. |![image](https://github.com/user-attachments/assets/1f48f6b9-84f4-430b-9ff4-8329c8745541) |
 
 # **YOUTUBE VIDEO**
 
