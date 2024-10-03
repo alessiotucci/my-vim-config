@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/atucci/my-vim-config/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+**30-Day Vim Learning Plan**	README.md	/^# **30-Day Vim Learning Plan**$/;"	c
+**Day 11-15: Search and Replace**	README.md	/^## **Day 11-15: Search and Replace**$/;"	s	chapter:**30-Day Vim Learning Plan**
+**Day 16-20: Visual Mode**	README.md	/^## **Day 16-20: Visual Mode**$/;"	s	chapter:**30-Day Vim Learning Plan**
+**Day 1: Basic Navigation**	README.md	/^## **Day 1: Basic Navigation**$/;"	s	chapter:**30-Day Vim Learning Plan**
+**Day 2-5: Basic Editing**	README.md	/^## **Day 2-5: Basic Editing**$/;"	s	chapter:**30-Day Vim Learning Plan**
+**Day 21-25: Macros and Marks**	README.md	/^## **Day 21-25: Macros and Marks**$/;"	s	chapter:**30-Day Vim Learning Plan**
+**Day 26-30: Advanced Features**	README.md	/^## **Day 26-30: Advanced Features**$/;"	s	chapter:**30-Day Vim Learning Plan**
+**Day 6-10: Advanced Navigation**	README.md	/^## **Day 6-10: Advanced Navigation**$/;"	s	chapter:**30-Day Vim Learning Plan**
+**Here are a few reasons why you might want to learn Vim:**	README.md	/^# **Here are a few reasons why you might want to learn Vim:**$/;"	c
+**YOUTUBE VIDEO**	README.md	/^# **YOUTUBE VIDEO**$/;"	c
+AutoTags	.vimrc	/^augroup AutoTags$/;"	a
+g:mail42	.vimrc	/^let g:mail42 = 'atucci@student.42.fr'$/;"	v
+g:netrw_banner	.vimrc	/^let g:netrw_banner = 0$/;"	v
+g:netrw_browse_split	.vimrc	/^let g:netrw_browse_split = 4$/;"	v
+g:netrw_liststyle	.vimrc	/^let g:netrw_liststyle = 3$/;"	v
+g:netrw_winsize	.vimrc	/^let g:netrw_winsize = 18$/;"	v
+g:user42	.vimrc	/^let g:user42 = 'atucci'$/;"	v
