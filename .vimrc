@@ -65,10 +65,10 @@ hi TabLineSel ctermfg=Red ctermbg=8
 " command! MakeTags !gtags -R .
 
 " Automatically create and update tags file on file save or open
-augroup AutoTags
-  autocmd!
-  autocmd BufWritePost,BufReadPost * silent! !ctags -R .
-augroup END
+"augroup AutoTags
+"  autocmd!
+"  autocmd BufWritePost,BufReadPost * silent! !ctags -R .
+"augroup END
 
 
 "----------------------------------------------------------
