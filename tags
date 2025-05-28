@@ -4,7 +4,7 @@
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
-!_TAG_PROC_CWD	/home/atucci/my-vim-config/	//
+!_TAG_PROC_CWD	/nfs/homes/atucci/Desktop/my-vim-config/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
@@ -19,10 +19,34 @@
 **Day 6-10: Advanced Navigation**	README.md	/^## **Day 6-10: Advanced Navigation**$/;"	s	chapter:**30-Day Vim Learning Plan**
 **Here are a few reasons why you might want to learn Vim:**	README.md	/^# **Here are a few reasons why you might want to learn Vim:**$/;"	c
 **YOUTUBE VIDEO**	README.md	/^# **YOUTUBE VIDEO**$/;"	c
-AutoTags	.vimrc	/^augroup AutoTags$/;"	a
+<F5>	.vimrc	/^nnoremap <silent> <F5> :CuteHeader<CR>$/;"	m
+CuteHeader	.vimrc	/^command! CuteHeader call s:stdheader()$/;"	c
+HeaderAutoUpdate	.vimrc	/^augroup HeaderAutoUpdate$/;"	a
 g:mail42	.vimrc	/^let g:mail42 = 'atucci@student.42.fr'$/;"	v
 g:netrw_banner	.vimrc	/^let g:netrw_banner = 0$/;"	v
 g:netrw_browse_split	.vimrc	/^let g:netrw_browse_split = 4$/;"	v
 g:netrw_liststyle	.vimrc	/^let g:netrw_liststyle = 3$/;"	v
 g:netrw_winsize	.vimrc	/^let g:netrw_winsize = 18$/;"	v
 g:user42	.vimrc	/^let g:user42 = 'atucci'$/;"	v
+s:ascii	.vimrc	/^function! s:ascii(n)$/;"	f
+s:asciiart	.vimrc	/^let s:asciiart = [$/;"	v
+s:cpu_model	.vimrc	/^function! s:cpu_model()$/;"	f
+s:date	.vimrc	/^function! s:date()$/;"	f
+s:end	.vimrc	/^let s:end       = '#'$/;"	v
+s:filename	.vimrc	/^function! s:filename()$/;"	f
+s:filetype	.vimrc	/^function! s:filetype()$/;"	f
+s:fill	.vimrc	/^let s:fill      = '*'$/;"	v
+s:hostname	.vimrc	/^function! s:hostname()$/;"	f
+s:insert	.vimrc	/^function! s:insert()$/;"	f
+s:length	.vimrc	/^let s:length    = 80$/;"	v
+s:line	.vimrc	/^function! s:line(n)$/;"	f
+s:mail	.vimrc	/^function! s:mail()$/;"	f
+s:margin	.vimrc	/^let s:margin    = 5$/;"	v
+s:memory	.vimrc	/^function! s:memory()$/;"	f
+s:osinfo	.vimrc	/^function! s:osinfo()$/;"	f
+s:start	.vimrc	/^let s:start     = '#'$/;"	v
+s:stdheader	.vimrc	/^function! s:stdheader()$/;"	f
+s:textline	.vimrc	/^function! s:textline(left, right)$/;"	f
+s:types	.vimrc	/^let s:types     = {$/;"	v
+s:update	.vimrc	/^function! s:update()$/;"	f
+s:user	.vimrc	/^function! s:user()$/;"	f
