@@ -107,6 +107,10 @@ set cindent
 " Here is to type them out
 " set listchars=tab:\u27A1\ ,space:\u00B7
 set listchars=tab:➡\ ,space:·
+
+" This uses the standard unicode right arrow (U+2192). It is thinner, but Windows will treat it as text !
+" Replace your current set listchars line with this:
+" set listchars=tab:→\ ,space:·
 set list
 
 " Customize colors for the special characters
