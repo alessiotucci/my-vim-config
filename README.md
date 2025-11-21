@@ -34,62 +34,31 @@ I have updated my .vimrc with **the tabs and space visualization** very helpful 
 [![](https://ytcards.demolab.com/?id=D4YTJ2W5q4Y&ab_channel=ThePrimeagen&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/D4YTJ2W5q4Y) [![](https://ytcards.demolab.com/?id=RZ4p-saaQkc&ab_channel=freeCodeCamp.org&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/RZ4p-saaQkc)[![](https://ytcards.demolab.com/?id=R2pBWDnfJY8&ab_channel=BenAwad&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "")](https://youtu.be/R2pBWDnfJY8) [![Beginner Friendly](https://ytcards.demolab.com/?id=lWTzqPfy1gE)](https://youtu.be/lWTzqPfy1gE?feature=shared)
 
 
-# **30-Day Vim Learning Plan**
-
-This is a 30-day learning plan for mastering Vim, a powerful text editor.
-
-
-## **Day 1: Basic Navigation**
-
-
+# Some useful commands
 
 * Enter insert mode: `i`
 * Exit insert mode: `Esc`
 * Move left, down, up, right: `h`, `j`, `k`, `l` respectively
 * Save changes: `:w`
 * Quit Vim: `:q`
-
-
-## **Day 2-5: Basic Editing**
-
-
-
 * Delete character under the cursor: `x`
 * Delete word: `dw`
 * Copy current line: `yy`
 * Paste copied line: `p`
 * Undo last change: `u`
 * Redo last change: `Ctrl-r`
-
-
-## **Day 6-10: Advanced Navigation**
-
-
-
 * Move forward one word: `w`
 * Move back one word: `b`
 * Move to beginning of the line: `0`
 * Move to end of the line: `$`
 * Move to beginning of the file: `gg`
 * Move to end of the file: `G`
-
-
-## **Day 11-15: Search and Replace**
-
-
-
 * Search forward for a string: `/`
 * Search backward for a string: `?`
 * Move to the next search result: `n`
 * Move to the previous search result: `N`
 * Replace all instances of "old" with "new" in the current line: `:s/old/new/g`
 * Replace all instances of "old" with "new" in the entire file: `:%s/old/new/g`
-
-
-## **Day 16-20: Visual Mode**
-
-
-
 * Enter visual mode: `v`
 * Enter line visual mode: `V`
 * Enter block visual mode: `Ctrl-v`
@@ -97,26 +66,13 @@ This is a 30-day learning plan for mastering Vim, a powerful text editor.
 * Copy selected text: `y`
 * Indent selected text: `>`
 * Unindent selected text: `&lt;`
-
-
-## **Day 21-25: Macros and Marks**
-
-
-
 * Start recording a macro: `q`
 * Play back a macro: `@`
 * Set a mark: `m`
 * Move to a mark: `'`
 * Move to the exact location of a mark: ```
-
-
-## **Day 26-30: Advanced Features**
-
-
-
 * Split the window: `Ctrl-w`
 * Open a new window: `:new`
 * Open a new vertical window: `:vnew`
 * Enable autocomplete: `Ctrl-n`
 * Run a shell command from within Vim: `:!command`
-
