@@ -119,6 +119,8 @@ function! s:ApplyModeColors()
     " Apply StatusLine overrides for Insert Mode (Shared logic)
     hi StatusLine ctermfg=Black ctermbg=DarkCyan cterm=NONE
     highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
+    highlight CursorLine ctermbg=88
+
 endfunction
 
 function! s:ResetColors()
@@ -126,6 +128,8 @@ function! s:ResetColors()
     colorscheme elflord
     hi StatusLine ctermfg=White ctermbg=DarkBlue cterm=NONE
     highlight SpecialKey ctermfg=DarkGray guifg=DarkGray
+    highlight CursorLine ctermbg=88
+
 endfunction
 
 " Automation for Color Switching
