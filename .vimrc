@@ -60,7 +60,8 @@ set cindent
 " Visual Character Settings
 "--------------------------------------------------
 " Show tabs as arrow and spaces as dots
-set listchars=tab:➡\ ,space:·
+"set listchars=tab:➡\ ,space:·
+set listchars=tab:→\ ,space:·
 set list
 
 " Custom tab colors
@@ -301,38 +302,63 @@ function! s:date()
     return strftime("%Y/%m/%d %H:%M:%S")
 endfunction
 
-" --- Insertion Logic ---
+" ==============================================================================
+"  LOGIC: SMART INSERTION & UPDATE (Handles Shebangs & <?php)
+" ==============================================================================
 
-function! s:insert()
-    let l:line = 8
-    call append(0, "")
-    while l:line > 0
-        call append(0, s:line(l:line))
-        let l:line -= 1
-    endwhile
+" 1. Calculate the offset
+"  Returns 1 if the file starts with specific tags, otherwise 0.
+function! s:calc_offset()
+	if getline(1) =~ '^#!' || getline(1) =~ '^<?'
+		return 1
+	endif
+	return 0
 endfunction
 
+" 2. Smart Insert
+"    Inserts the header AFTER the offset (below <?php), not at the absolute top.
+function! s:insert()
+	let l:line = 8
+	let l:offset = s:calc_offset()
+	
+	" Insert the blank line separating header from code
+	call append(l:offset, "")
+	
+	" Loop backwards to stack lines on top of each other at the offset point
+	while l:line > 0
+		call append(l:offset, s:line(l:line))
+		let l:line -= 1
+	endwhile
+endfunction
+
+" 3. Smart Update
+"    Looks for the "Updated" line based on the offset.
 function! s:update()
-    call s:filetype()
-    " Check line 5 for 'Updated' (Since header is now smaller)
-    if getline(5) =~ "Updated: "
-        if &mod
-            call setline(5, s:line(5))
-        endif
-        return 0
-    endif
-    return 1
+	call s:filetype()
+	
+	let l:offset = s:calc_offset()
+	" Normally the 'Updated' line is line 5. 
+	" We add the offset (0 or 1) to find the correct line dynamically.
+	let l:target_line = 5 + l:offset
+	
+	if getline(l:target_line) =~ "Updated: "
+		if &mod
+			call setline(l:target_line, s:line(5))
+		endif
+		return 0
+	endif
+	return 1
 endfunction
 
 function! s:stdheader()
-    if s:update()
-        call s:insert()
-    endif
+	if s:update()
+		call s:insert()
+	endif
 endfunction
 
 command! Header call s:stdheader()
 nnoremap <silent> <F5> :Header<CR>
 augroup HeaderAutoUpdate
-    autocmd!
-    autocmd BufWritePre * call s:update()
-augroup END    
+	autocmd!
+	autocmd BufWritePre * call s:update()
+augroup END
