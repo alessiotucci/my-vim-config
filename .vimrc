@@ -9,6 +9,7 @@ syntax on
 set laststatus=2
 set ruler
 set mouse=a
+set paste " for paste the code generated from ai in windows!
 set encoding=utf-8
 
 "--------------------------------------------------
